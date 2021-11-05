@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'accounts',
     'store',
     'carts',
+    'orders',
 
 ]
 
@@ -77,7 +78,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'greatkart.wsgi.application'
 
 
-# Tell the settings that u are using custom user model 
+# Tell the settings that u are using custom user model
 AUTH_USER_MODEL = 'accounts.Account'
 
 
